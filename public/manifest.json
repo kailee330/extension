@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Shibacoin",
+  "version": "1.0.1",
+  "description": "Shibacoin A Chrome Extension for managing cryptocurrency wallets and facilitating secure transactions.",
+  "icons": {
+    "16": "/logo-16.png",
+    "32": "/logo-32.png",
+    "48": "/logo-48.png",
+    "128": "/logo-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Shibacoin",
+    "default_icon": {
+      "16": "/logo-16.png",
+      "32": "/logo-32.png"
+    }
+  },
+  "permissions": ["tabs", "storage", "scripting", "activeTab", "cookies"],
+  "host_permissions": ["*://*/*", "<all_urls>"],
+  "options_page": "index.html",
+  "homepage_url": "https://shibaexplorer.com/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "contact@Shibacoin"
+    }
+  }
+}
